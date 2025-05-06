@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#container, #container-secundario, #container-terciario {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+#botao, #botao3 {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 50%;
+}
+
+#botao2 {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 25%;
+}
+
+#container-terciario {
+    width: 50%;
+}
+
+#container-quarto {
+    text-align: center;
+}
+
+#botaoA, #botaoB, #botaoC {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 60%;
+}
